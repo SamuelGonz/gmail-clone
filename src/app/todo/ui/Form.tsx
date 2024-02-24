@@ -14,7 +14,7 @@ export const Form = () => {
    };
 
    return (
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="max-w-xl mx-auto bg-purple-500 p-4">
          <div className="flex flex-col mb-2 border">
             <label htmlFor="">Title</label>
             <input
